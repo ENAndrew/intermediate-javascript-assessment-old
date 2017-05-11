@@ -24,19 +24,19 @@ function grandpa(){
 Remove entries from the array until only correct answers remain
 
 These function(s) access the playball variable and get homerun
-var scopeArray1 = ["grandpa", "dad", "son", "uncle", "cousin"];
+var scopeArray1 = ["grandpa", "uncle"];
 
 These function(s) access the playball variable and get touchdown
-var scopeArray2 = ["grandpa", "dad", "son", "uncle", "cousin"];
+var scopeArray2 = ["dad", "son"];
 
 These function(s) access the badjoke variable and get undefined
-var scopeArray3 = ["grandpa", "dad", "son", "uncle", "cousin"];
+var scopeArray3 = ["grandpa", "dad", "son"];
 
 These functions accesss the badjoke variable and get "Har"
-var scopeArray4 = ["grandpa", "dad", "son", "uncle", "cousin"];
+var scopeArray4 = ["uncle", "cousin"];
 
 These functions access the playnintendo variable and get Mario
-var scopeArray5 = ["grandpa", "dad", "son", "uncle", "cousin"];
+var scopeArray5 = ["son"];
 
 
 `var foo;`
@@ -46,6 +46,14 @@ Promises
   Call setTimeout on a function
   which changes the variable foo (above) to 'bar'
   Resolve the promise when setTimeout completes.
+
+function async(){
+    var deferred = $q.defer();
+
+    setTimeout(function(){
+
+    };
+}
 
 Context
 # Context 1
